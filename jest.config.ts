@@ -2,7 +2,7 @@ export default {
   // [...]
   // Replace `ts-jest` with the preset you want to use
   // from the above list
-  preset: "ts-jest",
+  preset: "ts-jest/presets/js-with-ts",
   testEnvironment: "jsdom",
   moduleNameMapper: {
     "^@ui-system": "<rootDir>/src",
