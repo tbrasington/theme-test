@@ -1,5 +1,4 @@
-import '@testing-library/jest-dom'
-import   { FC, ReactElement } from "react"
+import { FC, ReactElement } from "react"
 import { render, RenderOptions } from "@testing-library/react"
 import { ThemeProvider } from "theme-ui"
 import { theme } from ".."

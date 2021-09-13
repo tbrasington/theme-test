@@ -1,6 +1,6 @@
 import { render, screen } from "../utils/test-utils"
 import { Box } from "@theme-ui/components";
-
+import React from 'react'
 import  Button from '../components/Button'
  
 describe('sample test', () => {
